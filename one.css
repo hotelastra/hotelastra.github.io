@@ -1,0 +1,29 @@
+body {text-align:center;background-color:#36393F;color:#fff;font-family:Roboto, sans-serif;}
+
+.padded-header {padding:5%;}
+.padded-header p {margin:0px;padding:0px;}
+#page-title {font-family:RobotoLight;}
+#page-subtext {font-family:RobotoBold;line-height:10%;}
+.info-button {border-radius:5px;transition-duration:0.2s;position:inline;margin-left:auto;margin-right:auto;margin-top:10px;}
+#dtwo .nomarginp p {margin:0px;padding:0px;}
+.discordlink {text-decoration:none;border-radius:5px;transition-duration:0.2s;margin:auto;margin-top:10px;padding:5px;}
+.discordlink span {cursor:pointer;display:inline-block;position:relative;transition:0.5s;}
+.discordlink span:after {content: '\00bb';position: absolute;opacity: 0;top: 0;right: -20px;transition: 0.5s;}
+.discordlink:hover span {padding-right:10px;}
+.discordlink:hover span:after {opacity:1;right:0;}
+.info-body {padding-left:10%;padding-right:10%;}
+
+#done {display:none;padding-left:10%;padding-right:10%;padding-bottom:5%;}
+#dtwo {display:none;padding-left:10%;padding-right:10%;padding-bottom:10%;}
+#dthree {display:none;padding-left:0%;padding-right:0%;padding-bottom:10%;}
+#dfour {display:none;padding-left:10%;padding-right:10%;padding-bottom:10%;}
+#dfive {display:none;padding-left:10%;padding-right:10%;padding-bottom:10%;}
+
+iframe {width:100%;}
+
+table, th, td {border: 1px solid white;border-collapse: collapse;}
+table {margin:auto;max-width:70%;}
+
+@font-face {font-family:Roboto;src:url('Roboto-Regular.ttf');}
+@font-face {font-family:RobotoLight;src:url('Roboto-Light.ttf');}
+@font-face {font-family:RobotoBold;src:url('Roboto-Bold.ttf');}
